@@ -5,7 +5,7 @@
             "type": "cppvsdbg",
             "request": "launch",
             "name": "Launch",
-            "program": "${workspaceFolder}/zig-out/bin/http_server",
+            "program": "${workspaceFolder}/zig-out/bin/http_server.exe",
             "args": [],
             "cwd": "${workspaceFolder}",
             "preLaunchTask": "build http_server",
