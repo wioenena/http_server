@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "cppvsdbg",
+            "request": "launch",
+            "name": "Launch",
+            "program": "${workspaceFolder}/zig-out/bin/http_server",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "build http_server",
+            
+        }
+    ]
+}

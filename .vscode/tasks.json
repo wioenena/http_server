@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build http_server",
+            "type": "shell",
+            "command": [
+                "zig",
+                "build"
+            ],
+            "problemMatcher": [],
+        }
+    ]
+}
